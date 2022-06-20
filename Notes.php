@@ -66,3 +66,24 @@ echo $pacienteDos["direccion"]["ciudad"],"<br>";
 echo $pacienteDos["direccion"]["sector"];
 echo count($paciente),"<br>";
 echo count($pacienteDos,COUNT_RECURSIVE);
+
+#Concatenacion
+
+$fraseUno= 'Hola que tal';
+$fraseDos='como estas?';
+
+echo $fraseUno.' '.$fraseDos;
+
+#interpolacion
+
+echo "$fraseUno Diego $fraseDos","<br>";
+echo "{$fraseUno} Diego {$fraseDos}","<br>";
+
+#if
+
+$num=2;
+if($num>=8){
+  echo "expresion Verdadera";
+}else{
+  echo "exprecion Falsa";
+}
